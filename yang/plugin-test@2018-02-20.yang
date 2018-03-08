@@ -4,13 +4,6 @@ module test-plugin {
 
 	prefix "ts-pl";
 
-	organization
-	    "Deutsche Telekom AG";
-
-	contact
-	    "Landgrabenweg 151
-	    53227 Bonn, Germany";
-
 	description
 	    "This module is used for Sysrepo plugin testing.";
 
