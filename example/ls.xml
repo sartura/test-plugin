@@ -1,0 +1,5 @@
+<action xmlns="urn:ietf:params:xml:ns:yang:1">
+  <call xmlns="urn:ietf:params:xml:ns:yang:test-plugin">
+    <command>ls</command>
+  </call>
+</action>

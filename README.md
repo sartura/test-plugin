@@ -11,3 +11,10 @@ $ export COMP=$STAGING_DIR/../toolchain-arm_xscale_gcc-4.8-linaro_uClibc-0.9.33.
 $ $STAGING_DIR/../host/bin/cmake -DCMAKE_FIND_ROOT_PATH=$STAGING_DIR --DCMAKE_LIBRARY_PATH=$STAGING_DIR -DCMAKE_C_COMPILER=$COMP/bin/arm-openwrt-linux-uclibcgnueabi-gcc -DCMAKE_C_FLAGS="-Wall -std=gnu99" -DCMAKE_BUILD_TYPE=Debug ..
 $ make
 ```
+
+## netopeer2-cli example
+
+You have netopeer2-cli command content examples in the folder example.
+```
+user-rpc --content ./example/ls.xml
+```
