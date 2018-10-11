@@ -7,6 +7,7 @@
 #include <sysrepo/values.h>
 
 #include "common.h"
+#include "version.h"
 
 const char *yang_model = "test-plugin";
 
